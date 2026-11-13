@@ -1,0 +1,77 @@
+1	RecordServerIP	127.0.0.1	
+2	RecordServerPort	8080	
+3	RecordFreeSpace	10	
+4	SuperDefinitionNum	2	
+5	HighDefinitionNum	5	
+6	StandardDefinitionNum	10	
+7	AuthType	FSMeetingAuth	
+8	LdapHost		
+9	LdapPort		
+10	LdapUserName		
+11	LdapPassword		
+12	LdapSearchBase		
+13	ProgressStatus	0	
+14	RoomSetMulticast	0	会议设置的组播状态：1——启动  0—— 禁止
+15	MaxOnlineUser	100	最大用户人数
+16	GroupName	Hst	客户端和服务端注册表参数(用于网页启动会议室和取得版本号)
+17	ProductName	FMDesktop	客户端
+18	ServerProductName	FMServer	服务端
+19	DownloadDirectory	/serv/v1/index/down	文件下载服务API地址
+20	EnterMeetingPath	/meeting/v1/launch	
+21	record_webService_address	/meetingRecord/recordService	
+22	record_fileDownload_address	/RecordFile/RecordFile/	
+23	RoomCtrlIP	fmserver	
+24	SM_Server_Address	fmserver	监控服务器网络连接配置
+25	SM_Server_Port	1090	监控服务器网络连接配置
+26	SM_Server_Connection_Code	34935	监控服务器网络连接配置
+27	SM_Server_ByteOrders	1	是否需要进行网络字节序转换配置 0--不进行转换；1--进行装换
+28	SM_Server_NetTimeOut	2	监控服务器相应等待时间配置(单位/分钟)
+29	CLEAN_BACKUP_DAY	30	定时清理备份文件时间间隔
+30	BACKUPFILE_PREFIX	Netmeeting	
+31	cesVersion	-- CES VERSION:	
+32	AUTHSERVER_AUTHTYPE	authserver/api/userauth/getallauthtype.json	
+33	AUTHSERVER_LOGINAUTH	authserver/api/userauth/loginauth.json	
+34	emailport	465	邮件端口
+35	emailhost	smtp.163.com	发送邮件服务器
+36	sendEmail	13725027473@163.com	发送者邮件
+37	sendPassword	kR0+GHwLluNT+NvsjaPgDOcSZgH8EvTL	发送者邮件密码
+38	AUTHSERVER_SETAUTHTYPE	authserver/api/userauth/setauthtype.json	该字段用来设置认证中心
+39	mysqlPath	/mysql/bin	该字段指向安装目录mysql
+40	OldGroupName	Fastonz	采用云会议客户端,启动助手注册表参数更新为Fastonz
+41	FeatureVersion	7	默认本地特性版本为1，每更新一次增加1
+42	dbUpdate	DB Update.sql	
+43	fmFaceLogPath	/FMFaceServer/log/	会议服务器相关日志的相对路径
+44	fmMonitorLogPath	/FMMonitor/log/	会议服务器相关日志的相对路径
+45	fmServerLogPath	/FMServer/log/	会议服务器相关日志的相对路径
+46	fmLicenseLogPath	/FMLicenseMgr/log/	会议服务器相关日志的相对路径
+47	SSL	true	邮件发送是否启用SSL，默认true：启用，false：不启用
+48	cascadeSwitch	1	是否开启级联开关：1开启，0关闭
+49	ConfAddress	192.168.7.185:28080;	配置中心映射地址，格式：ip1:port1,ip2:port2
+50	fmOnlineLogPath	/FMOnline/log/	会议服务器相关日志的相对路径
+51	LoadStrategy	2	负载用户策略(1：均衡负载，2：惰性负载)
+52	webProxyLogPath	/FMWebProxy/log/	会控代理服务日志的相对路径
+53	liveAccessAddress	https://interface.hst.com/	直播访问地址，开发:http://192.168.7.192:8888/，测试:https://interface.haoshitong.com/，正式:https://interface.hst.com/
+54	liveToken		调用直播接口的token
+55	preNodeAddress		保存上一次前置地址
+56	fspGatwayAddress		fsp网关映射地址，格式：ip1:port1
+57	fmServerLogLevel	1	日志等级，1：info 2：trace 3：warning 4：error 5：fatal
+58	fspAppId	ff71434f828c4c3e9de35ca6e25b471d	FSP应用ID
+59	fspAppSecret	5UB8Bk5cCATw2fldTV5NxQ==	FSP应用密钥
+60	fspHttpAddress	192.168.7.185:20127	后台通信地址
+61	fspAppVersion	1	fsp创建接口版本 1新版 0老版
+62	faceImageAddress	d:/FMFiles/FaceImage	人脸图片存放于安装时选择的存放目录
+63	ftpServerLogPath	/server/	会议服务器相关日志的相对路径
+64	ftpPort	8990	FTP端口
+65	ftpAttr	[{"user_name":"logserver","user_password":"Fm_ces-2020.","server_path":"client"}]	FTP参数：用户名、密码
+66	RoomCtrlPort	1091	会控端口
+67	CPU_WEIGHTING	3	均衡负载cpu权重
+68	MISSIONS_WEIGHTING	2	均衡负载实时任务数权重
+69	DISK_WEIGHTING	1	均衡负载磁盘使用率权重
+71	AUTHSERVER_ADDRESS	http://localhost:8080/	认证服务地址等于fmWeb/configure.properties/AUTHSERVER_ADDRESS
+72	launchName	CloudLauncher_zxV1.0.1.4.exe	
+73	server_alarm_threshold	3	服务器告警通知阈值
+74	WEB_MEETING_CONTROL_ADDRESS	192.168.7.185:28080	web会控映射地址
+75	WEB_APP_ADDRESS		webApp 映射地址
+76	private_cloud_connection	1	私有云直播连接测试
+77	DATABASE_AUTO_BACKUP	1	0:不开启自动备份 1:开启自动备份
+78	USER_FUNCTION_CONFIG	{"callScope":0}	用户客户端功能配置

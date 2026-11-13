@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+venv_*/
+
+# Test reports and logs
+reports/
+allure-results*/
+allure-report*/
+allure_results*/
+allure_report*/
+logs/
+log/
+*.log
+
+# Build output
+build/
+dist/
+*.egg-info/
+*.o
+*.obj
+
+# IDE and local tools
+.idea/
+.vscode/
+.claude/
+.codex-temp/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+data/config.ini
+data/*.mp4
+data/*.mkv
+data/*.avi
+data/*.mov
+
+# Temporary and OS files
+*.tmp
+*.temp
+*.bak
+*.bak_*
+*.backup_*
+*.swp
+*~
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
